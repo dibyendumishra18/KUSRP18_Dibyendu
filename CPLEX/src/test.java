@@ -9,7 +9,7 @@ public class test {
         try {
 
             IloCplex model = new IloCplex();
-            IloNumVar x = model.numVar(2, 3);
+            IloNumVar x = model.numVar(0, 1);
             model.addMinimize(x);
             model.setOut(new NullPrintStream());
             model.solve();
