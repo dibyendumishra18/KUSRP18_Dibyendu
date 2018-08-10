@@ -1,0 +1,5 @@
+1- Download LP_SOLVE_5.5.2.0_(DEV and EXE)_WIN64.ZIP
+2-Extract them and copy their CONTENT directly to \Windows\System32 directly.
+    NOTE: Do not put their content in any sub folders!
+3-Download and copy the LPSOLVE55j.dll to \Windows\System32 
+4-Download and include the jar files in your project build path. You can use this link to include a jar file in your build path.
